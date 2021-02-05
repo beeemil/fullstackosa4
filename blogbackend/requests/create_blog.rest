@@ -1,0 +1,11 @@
+post http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Ik1lZWVtaWwiLCJpZCI6IjVmYzBlMDM3ZTNmZTcyMTg3NGZiMDA5YSIsImlhdCI6MTYwNjQ3OTYxM30.zV8dmApeonIt3kDhVeb8udAPs9awkDQZHedgL2vn9bU
+
+
+{
+    "title" : "Blogiblogg",
+    "author": "bloggerman",
+    "url": "bllog.com",
+    "likes": "4"
+}
